@@ -26,7 +26,7 @@ un site de vente en-ligne a enregistré les montants dépensés par chaque clien
 
 - `depenses`: Montant des dépenses effectuées.
 
-Pour des raisons d'anonymisation, les noms et les villes de résidences ne doivent pas apparaitre en clair dans le CSV mais uniquement un identifiant unique `id1`,`id2`, etc. ou `ville1`, `ville2`, etc. Toutes les occurrences d'une même ville doivent être remplacées par la même valeur anonymisée. D'autre part les colonnes numériques (age, salaire, dépenses) doit être centrée (moyenne = 0) et réduite (écart-type = 1). Vous devez écrire un script **python** (`anonymisation.py`) qui lit le fichier `depenses.csv` et écrit un nouveau fichier CSV (appelé `depenses_anonymes.csv`) avec les données anonymisées (noms et villes) et centrées réduites (numériques).
+Pour des raisons d'anonymisation, les noms et les villes de résidences ne doivent pas apparaitre en clair dans le CSV mais uniquement un identifiant unique `id1`,`id2`, etc. ou `ville1`, `ville2`, etc. Toutes les occurrences d'une même ville doivent être remplacées par la même valeur anonymisée. D'autre part les colonnes numériques (age, salaire, dépenses) doit être centrées (moyenne = 0) et réduites (écart-type = 1). Vous devez écrire un script **python** (`anonymisation.py`) qui lit le fichier `depenses.csv` et écrit un nouveau fichier CSV (appelé `depenses_anonymes.csv`) avec les données anonymisées (noms et villes) et centrées réduites (numériques).
 
 L'utilisation de la librairie *pandas* est recommandée. 
 
