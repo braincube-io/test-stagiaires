@@ -4,7 +4,7 @@ Le but de ce test est d'avantage de nous donner un aperçu de votre expérience 
 
 ## 1. Récupération des données
 
-clonez ce répertoire sur votre machine (le répertoire contient un fichier `depenses.csv` et un `README.md`).
+Clonez ce répertoire sur votre machine (le répertoire contient un fichier `depenses.csv` et un `README.md`).
 
 ## 2. Création d'un dépôt git
 **[Si vous savez utiliser git]** Créez un nouveau sur projet git sur votre plateforme de choix (github/gitlab/bitbucket) et poussez y les deux fichiers.
@@ -14,7 +14,7 @@ N'hésitez pas à consulter la documentation des services en question, elle est 
 https://guides.github.com/activities/hello-world/
 
 ## 3. Anonymisation des données
-un site de vente en-ligne a enregistré les montants dépensés par chaque client dans le CSV qui contient cinq colonnes :
+Un site de vente en-ligne a enregistré les montants dépensés par chaque client dans le CSV qui contient cinq colonnes :
 
 - `nom`: nom du client
 
@@ -36,7 +36,13 @@ L'utilisation de la librairie **pandas** est recommandée.
 
 Remarquez que les régressions linéaires peuvent utiliser plusieurs variables. Faites une deuxième prédiction mais cette fois-ci en utilisant à la fois le `salaire` et l'`age` des clients. Le code peut être mis dans `lineaire.py` également mais le résultat (qui contient toutes les colonnes du fichier originel et une nouvelle colonne `prediction2_depense`) doit être exporté dans `predictions_2`.csv.
 
-## 5. Poussez les résultats
+## 5. Questions
+
+À partir des données originelles, répondez à ces deux questions :
+- Quelle est la probabilité qu'un individu ayant dépensé moins de 50 € habite Clermont-Ferrand ?
+- Dans quelle commune les habitants ont-il le plus taux de dépense par rapport à leur salaire le plus élevé ?
+
+## 6. Poussez les résultats
 
 - Si jamais l'étape 2 me vous a pas posée de soucis, vous pouvez ajouter les fichiers pythons et csv créés au dépôt git et pousser les modification sur le serveur de votre plateforme. 
 
